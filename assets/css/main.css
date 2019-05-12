@@ -85,6 +85,16 @@ input, select, textarea {
 			box-sizing: border-box;
 		}
 
+		.col-4 > * {
+			opacity: 1.0;
+  			transition: 0.3s;
+		}
+
+		.col-4 > *:hover {
+			opacity: 0.6;
+			
+		}
+
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
 		}
@@ -507,10 +517,10 @@ input, select, textarea {
 							padding-top: 0.625em;
 						}
 
-				.row {
+					.row { 
 					margin-top: -1.25em;
 					margin-left: -1.25em;
-				}
+				 	} 
 
 					.row > * {
 						padding: 1.25em 0 0 1.25em;
